@@ -31,14 +31,15 @@ li {
 }
 
 .page-container {
-    
+
 }
 
 .hero {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding: 100px 0px;
+    gap: 40px;
 }
 
 .hero-txt {
@@ -50,6 +51,8 @@ li {
     font-weight: 700;
     font-size: 48px;
     margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .hero p {
@@ -63,6 +66,9 @@ li {
     border: none;
     padding: 5px 20px;
     color: #F9FAF8;
+    font-size: 16px;
+    height: 40px;
+    width: 100px;
 }
 
 .hero-img {
