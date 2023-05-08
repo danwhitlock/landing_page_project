@@ -1,3 +1,74 @@
 body {
     font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    color: #F9FAF8;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+li {
+    color: #E5E7EB;
+    padding: 10px;
+}
+
+.page-container {
+    
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+.hero-btn {
+    background-color: #3882F6;
+}
+
+.hero-img {
+    background-color: #E5E7EB;
+}
+
+.information {
+
+}
+
+.info-img {
+
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+}
+
+.call-to-action {
+
+}
+
+.box {
+    background-color: #3882F6;
+}
+
+.btn-two {
+
+}
+
+footer {
+    background-color: #1f2937;
+    color: #E5E7EB;
 }
