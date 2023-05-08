@@ -12,6 +12,8 @@ nav {
 
 h1 {
     color: #F9FAF8;
+    font-size: 24px;
+
 }
 
 ul {
@@ -26,6 +28,7 @@ ul {
 li {
     color: #E5E7EB;
     padding: 10px;
+    font-size: 18px;
 }
 
 .page-container {
@@ -36,36 +39,79 @@ li {
     background-color: #1F2937;
 }
 
+
+.hero h2 {
+    color: #F9FAF8;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .hero-btn {
     background-color: #3882F6;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 20px;
+    color: #F9FAF8;
 }
 
 .hero-img {
-    background-color: #E5E7EB;
+    background-color: #8d8d8d;
+    height: 200px;
+    width: 500px;
+}
+
+.hero-img p {
+    font-weight: 300;
 }
 
 .information {
-
+    color:#1F2937;
+    font-weight: 700;
 }
 
+.information p {
+    color: #7E7F81;
+    font-weight: 300;
+}
 .info-img {
-
+    height: 150px;
+    width: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
 }
 
 .testimonial {
     background-color: #E5E7EB;
 }
 
-.call-to-action {
-
+.quote {
+    font-style: italic;
+    font-weight: 300;
 }
 
-.box {
+.quote-from {
+    font-weight: 700;
+}
+
+.call-to-action {
     background-color: #3882F6;
 }
 
-.btn-two {
+.box {
+    
+}
 
+.cta-btn {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    padding: 5px 20px;
 }
 
 footer {
