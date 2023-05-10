@@ -88,19 +88,39 @@ li {
     color:#1F2937;
     font-weight: 700;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 35px 0px;
+}
+
+.information h2 {
+    padding-bottom: 25px;
 }
 
 .information p {
     color: #7E7F81;
     font-weight: 300;
 }
+
+.info-cards {
+    display: flex;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
 .info-img {
     height: 150px;
     width: 150px;
     border: 4px solid #3882F6;
     border-radius: 15px;
-    display: flex;
-    padding: 100px 0px;
 }
 
 .testimonial {
