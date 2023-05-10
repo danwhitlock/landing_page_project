@@ -4,6 +4,9 @@ body {
     margin: 0;
 }
 
+
+/*      NAV     */
+
 nav {
     background-color: #1f2937;
     display: flex;
@@ -17,7 +20,6 @@ h1 {
 
 ul {
     list-style-type: none;
-    padding: 0;
     margin:0;
     display: flex;
     align-items: center;
@@ -30,12 +32,15 @@ li {
     font-size: 18px;
 }
 
+
+/*      HERO        */
+
 .hero {
     background-color: #1F2937;
     display: flex;
-    justify-content: center;
-    padding: 100px 0px;
-    gap: 40px;
+    justify-content: space-between;
+    padding: 100px 500px;
+    gap: 75px;
 }
 
 .hero-txt {
@@ -80,6 +85,9 @@ li {
     font-weight: 300;
 }
 
+
+/*      INFO        */
+
 .information {
     color:#1F2937;
     font-weight: 700;
@@ -119,6 +127,9 @@ li {
     border-radius: 15px;
 }
 
+
+/*      TESTIMONIAL     */
+
 .testimonial {
     background-color: #E5E7EB;
     display: flex;
@@ -140,8 +151,10 @@ li {
     margin: 0;
 }
 
+
+/*      MODAL       */
+
 .modal-container {
-    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -181,14 +194,17 @@ li {
 
 }
 
+
+/*      FOOTER      */
+
 footer {
     background-color: #1f2937;
     color: #E5E7EB;
     display: flex;
+    justify-content: center;
 }
 
 footer p {
     margin: 0;
     padding: 20px 0px;
-    justify-content: center;
 }
